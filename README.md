@@ -30,7 +30,7 @@ cp -r . ~/.claude/skills/qa-mentor/
 
 ## Contexto
 
-Criada seguindo o framework [superpowers/writing-skills](https://github.com/anthropics/superpowers) com ciclo TDD completo:
+Criada com ciclo TDD completo a partir do workflow de desenvolvimento Integrare Tech:
 
 - **RED**: 3 cenários baseline sem skill — 6 gaps críticos identificados
 - **GREEN**: 3 testes com skill — todos os gaps resolvidos
