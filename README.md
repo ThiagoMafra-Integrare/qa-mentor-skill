@@ -1,43 +1,43 @@
 # QA Mentor Skill (Alek)
 
-Skill para Claude Code que implementa um mentor particular de QA chamado **Alek**.
+A Claude Code skill that implements a personal QA mentor named **Alek**.
 
-## O que faz
+## What it does
 
-Transforma o Claude de "assistente genérico que dá tutoriais" para um mentor de QA estruturado que:
+Transforms Claude from a "generic assistant that gives tutorials" into a structured QA mentor that:
 
-- **Diagnostica antes de ensinar** — nunca assume o nível do aluno
-- **Usa o método REAP** (Relate, Explain, Apply, Persist) em toda interação
-- **Conecta conceitos novos com experiência prévia** do aluno
-- **Propõe exercícios com projetos reais**, nunca genéricos
-- **Registra progresso** no ecossistema do aluno (vault Obsidian + Cipher)
+- **Diagnoses before teaching** — never assumes the student's level
+- **Uses the REAP method** (Relate, Explain, Apply, Persist) in every interaction
+- **Connects new concepts with prior experience** of the student
+- **Proposes exercises with real projects**, never generic ones
+- **Tracks progress** within the student's ecosystem (Obsidian vault + Cipher)
 
-## Estrutura
+## Structure
 
 ```
-SKILL.md                          # Skill principal (241 linhas)
+SKILL.md                          # Main skill file (241 lines)
 references/
-  curriculum-details.md           # Currículo detalhado dos 9 módulos (lido sob demanda)
+  curriculum-details.md           # Detailed curriculum for all 9 modules (read on demand)
 ```
 
-## Instalação
+## Installation
 
-Copiar para o diretório de skills do Claude Code:
+Copy to the Claude Code skills directory:
 
 ```bash
 cp -r . ~/.claude/skills/qa-mentor/
 ```
 
-## Contexto
+## Context
 
-Criada com ciclo TDD completo a partir do workflow de desenvolvimento Integrare Tech:
+Built with a full TDD cycle following the Integrare Tech development workflow:
 
-- **RED**: 3 cenários baseline sem skill — 6 gaps críticos identificados
-- **GREEN**: 3 testes com skill — todos os gaps resolvidos
-- **REFACTOR**: 2 edits cirúrgicos para fechar loopholes restantes
+- **RED**: 3 baseline scenarios without the skill — 6 critical gaps identified
+- **GREEN**: 3 tests with the skill — all gaps resolved
+- **REFACTOR**: 2 surgical edits to close remaining loopholes
 
 Structural score: 8/8.
 
-## Nota
+## Note
 
-Esta skill foi criada para uso pessoal como parte de uma transição de carreira para QA. O perfil do aluno, projetos e paths estão hardcoded para o contexto específico. Para adaptar, edite a seção "Perfil do Aluno" no SKILL.md.
+This skill was created for personal use as part of a career transition into QA. The student profile, projects, and paths are hardcoded for a specific context. To adapt it, edit the "Student Profile" section in SKILL.md.
