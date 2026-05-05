@@ -1,6 +1,6 @@
 # QA Mentor Skill (Alek)
 
-A Claude Code skill that implements a personal QA mentor named **Alek**.
+A personal QA mentor framework named **Alek** for structured mentorship.
 
 ## What it does
 
